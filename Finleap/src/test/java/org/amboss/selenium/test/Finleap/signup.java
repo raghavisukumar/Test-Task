@@ -21,7 +21,11 @@ public class signup {
 	
 	private static ResourceBundle rb = ResourceBundle.getBundle("userdetails");
 	
-	private static FirefoxDriver driver;
+	private FirefoxDriver driver;
+	
+	public signup(FirefoxDriver driver) {
+        this.driver=driver;
+    }
 	
 	@BeforeEach
 	public void setup() {

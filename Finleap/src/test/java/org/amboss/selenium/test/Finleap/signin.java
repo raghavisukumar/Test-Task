@@ -25,21 +25,22 @@ private static signup signup;
 		System.setProperty("webdriver.gecko.driver", rb.getString("webdriver.gecko.driver.path"));
 		driver = new FirefoxDriver();
 		driver.get(rb.getString("url"));
-		signup = new signup();
+		
 		}
 	
-	/*@Test
+	@Test
 	@Order(1)
 	public void signup_verifysignin()
 	{
 		driver.findElement(By.id("signup")).click();
+		signup = new signup(driver);
 		signup.valid_userdetails();
 		System.out.println("Valid user registered successfully");
 		signin_validuser();
 
-	}*/
+	}
 	@Test
-	@Order(1)
+	@Order(2)
 	public void signin_validuser()
 	{
 		driver.findElement(By.id("username")).sendKeys(rb.getString("valid.email"));
@@ -49,8 +50,8 @@ private static signup signup;
 		System.out.println("User logged in successfully");
 		
 	}
-	/*@Test
-	@Order(2)
+	@Test
+	@Order(3)
 	public void signin_unregistereduser()
 	{
 		driver.findElement(By.id("username")).sendKeys(rb.getString("unregistered.username"));
@@ -61,11 +62,11 @@ private static signup signup;
 		assertTrue(validationmessage.contains("Die Anmeldung ist fehlgeschlagen. Das Passwort und die E-Mail stimmen nicht überein. Bitte versuchen Sie es erneut."));
 		System.out.println("User login fails as the user is not registered");
 		
-	}*/
+	}
 	
-	/*@AfterEach
+	@AfterEach
 	public void teardown()
 	{
 		driver.close();
-	}*/
+	}
 }
