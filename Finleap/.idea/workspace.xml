@@ -12,13 +12,27 @@
     <option name="hideWarnings" value="true" />
     <option name="HIDE_WARNINGS" value="true" />
   </component>
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" openResultsInEditor="true" userTempatePath="" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1WwSXKIG6LmTqUu8chmZypXdRoF" />
   <component name="PropertiesComponent">
+    <property name="extract.method.default.visibility" value="public" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.amboss.selenium.test.fineleap" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -33,18 +47,18 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="signin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SigninTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Finleap" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.amboss.selenium.test.Finleap.*" />
+          <option name="PATTERN" value="org.amboss.selenium.test.fineleap.Userlogintest" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
-      <option name="PACKAGE_NAME" value="org.amboss.selenium.test.Finleap" />
-      <option name="MAIN_CLASS_NAME" value="org.amboss.selenium.test.Finleap.signin" />
+      <option name="PACKAGE_NAME" value="org.amboss.selenium.test.fineleap" />
+      <option name="MAIN_CLASS_NAME" value="org.amboss.selenium.test.fineleap.SigninTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
@@ -52,9 +66,83 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Userlogintest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Finleap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.amboss.selenium.test.fineleap.Userlogintest" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.amboss.selenium.test.fineleap" />
+      <option name="MAIN_CLASS_NAME" value="org.amboss.selenium.test.fineleap.Userlogintest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Userlogintest.teardown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Finleap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.amboss.selenium.test.fineleap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.amboss.selenium.test.fineleap" />
+      <option name="MAIN_CLASS_NAME" value="org.amboss.selenium.test.fineleap.Userlogintest" />
+      <option name="METHOD_NAME" value="teardown" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Userlogintest.verify_emptyconsent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Finleap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.amboss.selenium.test.fineleap.Userlogintest" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.amboss.selenium.test.fineleap" />
+      <option name="MAIN_CLASS_NAME" value="org.amboss.selenium.test.fineleap.Userlogintest" />
+      <option name="METHOD_NAME" value="verify_emptyconsent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Userlogintest.verify_valid_userdetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Finleap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.amboss.selenium.test.fineleap.Userlogintest" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.amboss.selenium.test.fineleap" />
+      <option name="MAIN_CLASS_NAME" value="org.amboss.selenium.test.fineleap.Userlogintest" />
+      <option name="METHOD_NAME" value="verify_valid_userdetails" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.SigninTest" />
+      <item itemvalue="JUnit.Userlogintest" />
+      <item itemvalue="JUnit.Userlogintest.verify_emptyconsent" />
+      <item itemvalue="JUnit.Userlogintest.verify_valid_userdetails" />
+      <item itemvalue="JUnit.Userlogintest.teardown" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.signin" />
+        <item itemvalue="JUnit.Userlogintest" />
+        <item itemvalue="JUnit.Userlogintest.verify_valid_userdetails" />
+        <item itemvalue="JUnit.Userlogintest.teardown" />
+        <item itemvalue="JUnit.Userlogintest.verify_emptyconsent" />
+        <item itemvalue="JUnit.SigninTest" />
       </list>
     </recent_temporary>
   </component>
